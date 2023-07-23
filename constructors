@@ -1,0 +1,23 @@
+
+class Chemistry{
+    String name;
+    int id;
+    public Chemistry(String newname, int newid){
+        name=newname;
+        id=newid;
+
+    }
+}
+
+public class methodoverloading {
+    public static void main(String[] args) {
+        Chemistry structure= new Chemistry("Code with Pravin", 1000);
+        System.out.println(structure.name);
+        System.out.println(structure.id);
+
+        // A constructor in Java is a special method that is used to inittialize objects. 
+
+
+    }
+
+}
