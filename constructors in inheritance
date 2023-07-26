@@ -1,0 +1,35 @@
+
+class college {
+    int a;
+
+
+    public college(int a ) {
+        System.out.println(" tghe value od a is okay" +a);
+
+    }
+
+}
+class uni extends college{
+    int b;
+    public uni(int b){
+        super(6);
+
+        System.out.println(" i am at univesirty now"+b );
+    }
+
+}
+
+
+
+
+
+
+public class inheritance2 {
+    public static void main(String[] args) {
+        uni uic= new uni(9);
+
+    }
+}
+// Inheritance in constructors are used to print the instruction
+// on parent class to subclass.To use the different parameters we have to sue 
+// the super keyboards in second class or subclass method public.or constructors. 
